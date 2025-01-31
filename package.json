@@ -1,4 +1,11 @@
-npm init -y
-git add package.json
-git commit -m "Adding package.json"
-git push origin main
+{
+  "name": "east-west-trading",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ng serve",
+    "build": "ng build --configuration=production"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
