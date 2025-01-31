@@ -12,3 +12,11 @@
 "devDependencies": {
   "@angular/cli": "^16.0.0"
 }
+"scripts": {
+  "preinstall": "npm install -g @angular/cli",
+  "start": "ng serve",
+  "build": "ng build --configuration=production"
+},
+"devDependencies": {
+  "@angular/cli": "^16.0.0"
+}
