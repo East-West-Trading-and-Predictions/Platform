@@ -1,0 +1,4 @@
+npm init -y
+git add package.json
+git commit -m "Adding package.json"
+git push origin main
