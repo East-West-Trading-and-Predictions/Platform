@@ -6,3 +6,6 @@ publish = "dist/east-west-trading"
 from = "/*"
 to = "/index.html"
 status = 200
+[build]
+command = "npm install && npx ng build --configuration=production"
+publish = "dist/east-west-trading"
