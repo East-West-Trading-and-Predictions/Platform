@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>East → West Trading & Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to East → West Trading & Marketplace</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#market">Market Insights</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Your One-Stop Trading & Investment Platform</h2>
+        <p>Seamlessly track executive trades, leverage AI-driven insights, and optimize your investments.</p>
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>✅ **Live Market Data & CEO Trades**</li>
+            <li>✅ **Plaid Integration for Bank Connections**</li>
+            <li>✅ **AI-Driven Stock Predictions**</li>
+            <li>✅ **Customizable Stock Screener**</li>
+            <li>✅ **Breaking Financial News Feed**</li>
+        </ul>
+    </section>
+
+    <section id="market">
+        <h2>Market Insights</h2>
+        <div id="market-data">
+            <p>Loading latest stock trends...</p>
+        </div>
+    </section>
+
+    <section id="news">
+        <h2>Financial News</h2>
+        <div id="news-feed">
+            <p>Fetching latest headlines...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 East → West Trading & Marketplace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
