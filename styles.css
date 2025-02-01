@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#market-data, #news-feed {
+    font-style: italic;
+    color: #555;
+}
+
+footer {
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
