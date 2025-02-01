@@ -1,14 +1,8 @@
 [build]
-command = "npm install -g @angular/cli && npm install && ng build --configuration=production"
-publish = "dist/east-west-trading"
+  command = "npm install && npm run build"
+  publish = "build"
 
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
-[build]
-command = "npm install && npx ng build --configuration=production"
-publish = "dist/east-west-trading"
-[build]
-command = "npm install && npx ng build --configuration=production"
-publish = "dist/east-west-trading"
+  from = "/*"
+  to = "/index.html"
+  status = 200
