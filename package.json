@@ -2,21 +2,15 @@
   "name": "east-west-trading",
   "version": "1.0.0",
   "scripts": {
+    "preinstall": "npm install -g @angular/cli",
     "start": "ng serve",
     "build": "ng build --configuration=production"
   },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "^16.0.0",
+    "@angular-devkit/build-angular": "^16.0.0"
   }
-}
-"devDependencies": {
-  "@angular/cli": "^16.0.0"
-}
-"scripts": {
-  "preinstall": "npm install -g @angular/cli",
-  "start": "ng serve",
-  "build": "ng build --configuration=production"
-},
-"devDependencies": {
-  "@angular/cli": "^16.0.0"
 }
