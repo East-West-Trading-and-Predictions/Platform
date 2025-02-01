@@ -1,8 +1,8 @@
 [build]
-  command = "npm install && npm run build"
-  publish = "build"
+command = "npm install && npx ng build --configuration=production"
+publish = "dist/east-west-trading"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+from = "/*"
+to = "/index.html"
+status = 200
