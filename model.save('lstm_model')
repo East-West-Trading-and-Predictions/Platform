@@ -1,0 +1,14 @@
+gsutil cp -r lstm_model gs://your-bucket-name/lstm_model
+gcloud ai models upload \
+    --region=us-central1 \
+    --display-name=lstm_model \
+    --artifact-uri=gs://your-bucket-name/lstm_model
+gcloud ai endpoints create \
+    --region=us-central1 \
+    --display-name=lstm_endpoint
+
+gcloud ai endpoints deploy-model lstm_endpoint \
+    --region=us-central1 \
+    --model=lstm_model \
+    --display-name=lstm_model_deployment \
+    --machine-type=n1-standard-4
