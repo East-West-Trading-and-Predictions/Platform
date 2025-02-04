@@ -91,7 +91,7 @@ Netlify + GitHub: Scalable web & app development.
 
 Secure payment systems: Apple Pay, Google Pay, Buy with Prime.
 
-Visa & US Bank API integration for seamless transactions.
+API integration for seamless transactions.
 
 Security & Data Management
 
